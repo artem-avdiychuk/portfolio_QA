@@ -7,7 +7,7 @@
 
 **Техники тест-дизайна**
 
-1. [Классы эквивалентности и анализ граничных значений ](https://github.com/everyrubb/portfolio_QA/blob/main/equivalence_class.md)
+1. [Классы эквивалентности и анализ граничных значений ](https://github.com/everyrubb/portfolio_QA/blob/main/equivalence_class/equivalence_class.md)
 
 
 
