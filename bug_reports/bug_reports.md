@@ -1,4 +1,4 @@
-##### Примеры баг-репортов, составленных во время обучения на  «Яндекс.Практикуме» 
+### Примеры баг-репортов, составленных во время обучения на  «Яндекс.Практикуме» 
 
 <h4> Тестирование API </h4>
 
@@ -35,11 +35,7 @@
 	    <th valign="middle" align="center" rowspan="1"> Фактический результат </th>
 	    <td valign="middle" align="center"> 200 ОК, в ответ уменьшается количество ранее добавленных продуктов
     </td>
-    <tr >
-	    <th valign="middle" align="center" rowspan="1"> Дополнительные материалы </th>
-	    <td valign="middle" align="center"> приложить логи, ответ от сервера
-    </td>
-    <tr >
+    <tr>
 	    <th valign="middle" align="center" rowspan="1"> Приоритет </th>
 	    <td valign="middle" align="center"> Критичный
     </td>
