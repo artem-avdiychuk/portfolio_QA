@@ -25,7 +25,7 @@
     </td>
     <tr >
 	    <th valign="middle" align="center" rowspan="1"> Тело </th>
-	    <td> <p align="center"> <img src="https://github.com/everyrubb/portfolio_QA/blob/main/bag_reports/img.png" width="150" title="hover text"></p>
+	    <td> <p align="center"> <img src="https://github.com/everyrubb/portfolio_QA/blob/main/bug_reports/img.png" width="150" title="hover text"></p>
     </td>
     <tr >
 	    <th valign="middle" align="center" rowspan="1"> Ожидаемый результат </th>
