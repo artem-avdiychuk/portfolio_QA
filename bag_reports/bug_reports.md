@@ -26,7 +26,7 @@
 	    <th valign="middle" align="center" rowspan="1"> Тело </th>
 	    <td>
 <p align="center">
-  <img src="https://github.com/everyrubb/portfolio_QA/blob/main/bag_reports/img.png" width="350" title="hover text">
+  <img src="https://github.com/everyrubb/portfolio_QA/blob/main/bag_reports/img.png" width="150" title="hover text">
 </p>
 </td>
 	</tr>
