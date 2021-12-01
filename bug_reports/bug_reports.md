@@ -1,5 +1,62 @@
 ### Примеры баг-репортов, составленных во время обучения на  «Яндекс.Практикуме» 
 
+<h4> Тестирование функциональности </h4>
+
+<table> 
+<tr>
+	    <th>Название поля</th>
+	    <th>Содержание</th>
+</tr >
+	<tr >
+	    <th valign="middle" align="center" rowspan="1"> Заголовок </th>
+	    <td valign="middle" align="center">В «Яндекс.Маршруты. Учебный тренажёр» в окне «Добавление карты» нет возможности удалить банковскую карту
+    </td>
+    <tr >
+	    <th valign="middle" align="center" rowspan="1"> ID </th>
+	    <td valign="middle" align="center"> BUG-220477 </td>
+	    </tr>
+    <tr >
+	    <th valign="middle" align="center" rowspan="1"> Описание </th>
+	    <td valign="middle" align="center"> В окне «Способ оплаты» нет возможности удалить банковскую карту
+     </td>
+	    </tr>
+    <tr >
+	    <th valign="middle" align="center" rowspan="1"> Шаги воспроизведение </th>
+	    <td valign="middle" align="center"> 1. Открыть «Яндекс.Маршруты. Учебный тренажёр».
+                                        <br>
+                                            2. Добавить в поле «Откуда» — Хамовнический Вал, 34
+                                        <br>
+                                            3. Добавить в поле «Куда» — Зубовский бульвар, 37
+                                        <br>
+                                            4. Заполнить поля «Номер карты» и «Код»
+                                        <br>
+                                            5. Нажать «Привязать»
+    </td>
+    <tr >
+	    <th valign="middle" align="center" rowspan="1"> Ожидаемый результат </th>
+	    <td valign="middle" align="center"> Можно удалить банковскую карту
+    </td>
+    <tr >
+	    <th valign="middle" align="center" rowspan="1"> Фактический результат </th>
+	    <td valign="middle" align="center"> Нельзя удалить банковскую карту
+    </td>
+    <tr>
+	    <th valign="middle" align="center" rowspan="1"> Приоритет </th>
+	    <td valign="middle" align="center"> Средний
+    </td>
+    <tr >
+	    <th valign="middle" align="center" rowspan="1"> Окружение </th>
+	    <td valign="middle" align="center"> macOS Catalina версия 10.15.6,
+                                        <br>
+                                            Яндекс.Браузер 21.8.0.1716 (64-bit) с размером экрана 800x600
+    </td>
+    <tr >
+	    <th valign="middle" align="center" rowspan="1"> Дополнительные материалы </th>
+	    <td valign="middle" align="center"> приложить скриншот
+    </td>
+</tr>
+</table>
+
 <h4> Тестирование API </h4>
 
 <table> 
