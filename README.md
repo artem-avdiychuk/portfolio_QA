@@ -5,8 +5,9 @@
 2. [Тест-кейс](https://github.com/everyrubb/portfolio_QA/blob/main/test_case.md)
 3. [Баг-репорты](https://github.com/everyrubb/portfolio_QA/blob/main/bug_reports.md)
 
+**Техники тест-дизайна**
 
-
-
+1. [Классы эквивалентности ](https://github.com/everyrubb/portfolio_QA/blob/main/equivalence_class.md)
+2. [Анализ граничных значений](https://github.com/everyrubb/portfolio_QA/blob/main/boundary_value_testing.md)
 
 
