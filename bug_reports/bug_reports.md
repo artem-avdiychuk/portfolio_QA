@@ -1,6 +1,8 @@
 ### Примеры баг-репортов, составленных во время обучения на  «Яндекс.Практикуме» 
 
-<h4> Тестирование функциональности </h4>
+<h4> Баг-репорт при тестировании функциональности </h4>
+
+> **Требование:** Возможность удаление банковской карты
 
 <table> 
 <tr>
@@ -59,7 +61,9 @@
 </tr>
 </table>
 
-<h4> Тестирование API </h4>
+<h4> ТБаг-репорт при тестировании API </h4>
+
+> **Требование:** При вводе отрицательных значений возврат 400 Bad request
 
 <table> 
 <tr>
@@ -104,5 +108,62 @@
     </td>
 
 
+</tr>
+</table>
+
+<h4> Баг-репорт при тестировании мобильного приложения </h4>
+
+> **Требование:** При интернет-соединении приложение не работает
+
+<table> 
+<tr>
+	    <th>Название поля</th>
+	    <th>Содержание</th>
+</tr >
+	<tr >
+	    <th valign="middle" align="center" rowspan="1"> Заголовок </th>
+	    <td valign="middle" align="center"> В «Яндекс.Метро» при отсутствии интернет-соединения приложение продолжает корректно работать
+    </td>
+    <tr >
+	    <th valign="middle" align="center" rowspan="1"> ID </th>
+	    <td valign="middle" align="center"> BUG-236730 </td>
+	    </tr>
+    <tr >
+	    <th valign="middle" align="center" rowspan="1"> Описание </th>
+	    <td valign="middle" align="center"> В «Яндекс.Метро» при отсутствии интернет-соединения приложение продолжает корректно работать
+     </td>
+	    </tr>
+    <tr >
+	    <th valign="middle" align="center" rowspan="1"> Шаги воспроизведение </th>
+	    <td valign="middle" align="center"> 1. Отключить в настройках телефона Wi-Fi и мобильный интернет.
+                                        <br>
+                                            2. Открыть «Яндекс.Метро»
+                                        <br>
+                                            3. Добавить в поле «Откуда» — «Сокол»
+                                        <br>
+                                            4. Добавить в поле «Куда» — «Охотный ряд»
+                                        <br>
+                                            5. Отключить интернет-соединение
+    </td>
+    <tr >
+	    <th valign="middle" align="center" rowspan="1"> Ожидаемый результат </th>
+	    <td valign="middle" align="center"> Появляется уведомление об отсутствии интернета
+    </td>
+    <tr >
+	    <th valign="middle" align="center" rowspan="1"> Фактический результат </th>
+	    <td valign="middle" align="center"> Приложение продолжает корректно работать
+    </td>
+    <tr>
+	    <th valign="middle" align="center" rowspan="1"> Приоритет </th>
+	    <td valign="middle" align="center"> Средний
+    </td>
+    <tr >
+	    <th valign="middle" align="center" rowspan="1"> Окружение </th>
+	    <td valign="middle" align="center"> Хiaomi Mi 4W, Android 6.0.1
+    </td>
+    <tr >
+	    <th valign="middle" align="center" rowspan="1"> Дополнительные материалы </th>
+	    <td valign="middle" align="center"> приложить скриншоткаст или скриншот 
+    </td>
 </tr>
 </table>
