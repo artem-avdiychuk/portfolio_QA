@@ -1,9 +1,9 @@
 ### Примеры чек-листов, составленных во время обучения на  «Яндекс.Практикуме»
 
 ### Содержание
-1. [Чек-листы при тестировании функциональности](https://github.com/everyrubb/portfolio_QA/blob/main/check_list.md#-чек-листы-при-тестировании-функциональности-)
-2. [Чек-листы при тестировании API](https://github.com/everyrubb/portfolio_QA/blob/main/check_list.md#-чек-листы-при-тестировании-api-)
-3. [Чек-листы при тестировании мобильного приложения](https://github.com/everyrubb/portfolio_QA/blob/main/check_list.md#-чек-листы-при-тестировании-мобильного-приложения-)
+1. [Чек-листы при тестировании функциональности](https://github.com/everyrubb/portfolio_QA/blob/main/check_list/check_list.md#-чек-листы-при-тестировании-функциональности-)
+2. [Чек-листы при тестировании API](https://github.com/everyrubb/portfolio_QA/blob/main/check_list/check_list.md#-чек-листы-при-тестировании-api-)
+3. [Чек-листы при тестировании мобильного приложения](https://github.com/everyrubb/portfolio_QA/blob/main/check_list/check_list.md#-чек-листы-при-тестировании-мобильного-приложения-)
 
 <h3> Чек-листы при тестировании функциональности </h3> 
 
