@@ -12,8 +12,8 @@
 >
 **Макет**
 
+<img src="https://github.com/everyrubb/portfolio_QA/blob/main/equivalence_class/photo_2021-12-02%2012.01.48.jpeg" width="250" title="hover text"></p>
 
-![форма ввода](img_1.png)
 
 <table>
 	<tr>
