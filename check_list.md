@@ -1,7 +1,7 @@
 ### Примеры чек-листов, составленных во время обучения на  «Яндекс.Практикуме»
 
 ### Содержание
-1. Чек-листы при тестировании функциональности
+1. [Чек-листы при тестировании функциональности](https://github.com/everyrubb/portfolio_QA/blob/main/check_list.md#-чек-листы-при-тестировании-функциональности-)
 2. Чек-листы при тестировании API
 3. Чек-листы при тестировании мобильного приложения
 
@@ -152,4 +152,69 @@
 
 </tr>
 </table>
+
+<h3> Чек-листы при тестировании API </h3> 
+
+> **Требования**
+>
+>
+> Корзину можно удалить. Ответ — 200 ОК. 
+
+
+<table> 
+<tr>
+	    <th colspan="4"> Удаление корзины
+                        <br>
+                        Ручка — /api/v1/orders/:id" </th>
+</tr >
+<tr>
+	    <th>№ </th>
+	    <th>Описание проверки</th>
+        <th>Статус</th>
+        <th>Баг-репорт</th>
+</tr >
+	<tr >
+	    <th valign="middle" align="center" rowspan="1"> 1 </th>
+	    <td> Проверить, что можно удалить корзину </td>
+        <td valign="middle" align="center" > <span style="color:red"> FAILED </span> </td>
+        <td valign="middle" align="center"> Cсылка на баг-репорт </td>
+    <tr >
+	    <th valign="middle" align="center" rowspan="1"> 2 </th>
+	    <td> Проверить, что ответ на запрос возвращает 200 OK </td>
+        <td valign="middle" align="center" > <span style="color:red"> FAILED </span> </td>
+        <td valign="middle" align="center"> Cсылка на баг-репорт </td>
+    </tr>
+    <tr >
+	    <th valign="middle" align="center" rowspan="1"> 3 </th>
+	    <td> Проверить, что введенный запрос отправляется без ошибок валидации </td>
+	    <td valign="middle" align="center" > <span style="color:red"> FAILED </span> </td>
+        <td valign="middle" align="center"> Cсылка на баг-репорт </td>
+    </tr>
+    <tr >
+	    <th valign="middle" align="center" rowspan="1"> 4 </th>
+	    <td> Проверить, что ошибок в структуре ответа нет
+        <td valign="middle" align="center" > <span style="color:red"> FAILED </span> </td>
+        <td valign="middle" align="center"> Cсылка на баг-репорт </td>
+    </td>
+    <tr >
+	    <th valign="middle" align="center" rowspan="1"> 5 </th>
+	    <td> Проверить удаление уже удаленного объекта
+        <td valign="middle" align="center" > <span style="color:grey"> SKIPPED </span> </td>
+        <td valign="middle" align="center"> </td>
+    </td>
+    <tr >
+	    <th valign="middle" align="center" rowspan="1"> 6 </th>
+	    <td> Проверить удаление по несуществующему ID
+        <td valign="middle" align="center" > <span style="color:grey"> SKIPPED </span> </td>
+        <td valign="middle" align="center"> </td>
+    </td>
+    <tr >
+	    <th valign="middle" align="center" rowspan="1"> 7 </th>
+	    <td> Проверить удаление по невалидному ID
+        <td valign="middle" align="center" > <span style="color:grey"> SKIPPED </span> </td>
+        <td valign="middle" align="center"> </td>
+    </td>
+</tr>
+</table>
+
 
