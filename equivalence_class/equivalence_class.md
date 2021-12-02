@@ -14,7 +14,7 @@
 
 **Макет**
 
-<img src="https://github.com/everyrubb/portfolio_QA/blob/main/check_list/photo_2021-12-02%2011.58.12.jpeg" width="250" title="hover text"></p>
+<img src="https://github.com/everyrubb/portfolio_QA/blob/main/equivalence_class/photo_2021-12-02%2012.01.48.jpeg" width="250" title="hover text"></p>
 
 <table>
 	<tr>
