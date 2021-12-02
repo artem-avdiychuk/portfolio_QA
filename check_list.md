@@ -2,12 +2,12 @@
 
 ### Содержание
 1. [Чек-листы при тестировании функциональности](https://github.com/everyrubb/portfolio_QA/blob/main/check_list.md#-чек-листы-при-тестировании-функциональности-)
-2. Чек-листы при тестировании API
+2. [Чек-листы при тестировании API](https://github.com/everyrubb/portfolio_QA/blob/main/check_list.md#-чек-листы-при-тестировании-api-)
 3. Чек-листы при тестировании мобильного приложения
 
 <h3> Чек-листы при тестировании функциональности </h3> 
 
-#### Окно «Добавление карты» 
+#### Тестирование окноа «Добавление карты» 
 
 > **Требования**  
 > 
@@ -158,7 +158,7 @@
 > **Требования**
 >
 >
-> Корзину можно удалить. Ответ — 200 ОК. 
+> Корзину можно удалить. Ответ — 200 ОК. Структура ответа и запроса описана в Swagger. 
 
 
 <table> 
@@ -217,4 +217,82 @@
 </tr>
 </table>
 
+<h3> Чек-листы при тестировании мобильного приложения </h3> 
 
+#### Тестирование скролла схемы при помощи лонг-тапа
+
+
+> **Требования**
+>
+> При скролле лонгтапом можно выбрать нужную станцию, схема остаётся неподвижной.  
+> При попадании на область клика точки станции или её названия, на точку ставится пин, точка станции уменьшается, название станции выделяется жирным шрифтом, появляется карточка станции.  
+> Пин на станции и выделение станции пропадает, когда она не попадает в зону клика.  
+> Если движение заканчивается на пустой области, карточка станции закрывается.
+
+
+
+<table> 
+<tr>
+	    <th colspan="4"> Скролл схемы при помощи лонг-тапа </th>
+</tr >
+<tr>
+	    <th>№ </th>
+	    <th>Описание проверки</th>
+        <th>Статус</th>
+        <th>Баг-репорт</th>
+</tr >
+	<tr >
+	    <th valign="middle" align="center" rowspan="1"> 1 </th>
+	    <td> Проверить, что при скролле лонг-тапом можно выбрать нужную станцию </td>
+        <td valign="middle" align="center" > <span style="color:green"> PASSED </span> </td>
+        <td valign="middle" align="center"></td>
+    <tr >
+	    <th valign="middle" align="center" rowspan="1"> 2 </th>
+	    <td> Проверить, что схема остаётся неподвижной при выборе станции лонг-тапом </td>
+        <td valign="middle" align="center" > <span style="color:green"> PASSED </span> </td>
+        <td valign="middle" align="center"> = </td>
+    </tr>
+    <tr >
+	    <th valign="middle" align="center" rowspan="1"> 3 </th>
+	    <td> Проверить, что при попадании на область клика точки станции на точку ставится пин </td>
+	    <td valign="middle" align="center" > <span style="color:green"> PASSED </span> </td>
+        <td valign="middle" align="center"> </td>
+    </tr>
+    <tr >
+	    <th valign="middle" align="center" rowspan="1"> 4 </th>
+	    <td> Проверить, что при попадании на область клика точки станции точка станции уменьшается </td>
+        <td valign="middle" align="center" > <span style="color:green"> PASSED </span> </td>
+        <td valign="middle" align="center"> </td>
+    </td>
+    <tr >
+	    <th valign="middle" align="center" rowspan="1"> 5 </th>
+	    <td> Проверить, что при попадании на область клика точки станции название станции выделяется жирным цветом  </td>
+        <td valign="middle" align="center" > <span style="color:green"> PASSED </span> </td>
+        <td valign="middle" align="center"> </td>
+    </td>
+    <tr >
+	    <th valign="middle" align="center" rowspan="1"> 6 </th>
+	    <td> Проверить, что при попадании на область клика точки станции появляется карточка станции </td>
+        <td valign="middle" align="center" > <span style="color:green"> PASSED </span> </td>
+        <td valign="middle" align="center"> </td>
+    </td>
+    <tr >
+	    <th valign="middle" align="center" rowspan="1"> 7 </th>
+	    <td> Проверить, что пин на станции пропадает, когда он не попадает в зону клика </td>
+        <td valign="middle" align="center" > <span style="color:green"> PASSED </span> </td>
+        <td valign="middle" align="center"> </td>
+    </td>
+    <tr >
+	    <th valign="middle" align="center" rowspan="1"> 7 </th>
+	    <td> Проверить, что выделение станции пропадает, когда он не попадает в зону клика </td>
+        <td valign="middle" align="center" > <span style="color:green"> PASSED </span> </td>
+        <td valign="middle" align="center"> </td>
+    </td>
+    <tr >
+	    <th valign="middle" align="center" rowspan="1"> 7 </th>
+	    <td> Проверить, что карточка станции закрывается, если движение заканчивается на пустой области </td>
+        <td valign="middle" align="center" > <span style="color:green"> PASSED </span> </td>
+        <td valign="middle" align="center"> </td>
+    </td>
+</tr>
+</table>
