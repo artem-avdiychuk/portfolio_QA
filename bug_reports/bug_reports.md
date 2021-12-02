@@ -1,8 +1,8 @@
 ### Примеры баг-репортов, составленных во время обучения на  «Яндекс.Практикуме» 
 #### Содержание
-3.1 [Баг-репорт при тестировании функциональности](https://github.com/everyrubb/portfolio_QA/blob/main/bug_reports/bug_reports.md#-баг-репорт-при-тестировании-функциональности-)   
-3.2 [Баг-репорты при тестировании API](https://github.com/everyrubb/portfolio_QA/blob/main/bug_reports/bug_reports.md#-баг-репорт-при-тестировании-api-)  
-3.3 [Баг-репорт при тестировании мобильного приложения](https://github.com/everyrubb/portfolio_QA/blob/main/bug_reports/bug_reports.md#-баг-репорт-при-тестировании-мобильного-приложения-)
+1. [Баг-репорт при тестировании функциональности](https://github.com/everyrubb/portfolio_QA/blob/main/bug_reports/bug_reports.md#-баг-репорт-при-тестировании-функциональности-)   
+2. [Баг-репорт при тестировании API](https://github.com/everyrubb/portfolio_QA/blob/main/bug_reports/bug_reports.md#-баг-репорт-при-тестировании-api-)  
+3. [Баг-репорт при тестировании мобильного приложения](https://github.com/everyrubb/portfolio_QA/blob/main/bug_reports/bug_reports.md#-баг-репорт-при-тестировании-мобильного-приложения-)
 
 <h4> Баг-репорт при тестировании функциональности </h4>
 
